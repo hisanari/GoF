@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './plain_text_report'
 require './html_report'
 

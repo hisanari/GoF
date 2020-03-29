@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
+# report
 class Report
   def initialize
     @title = '報告'
-    @text = %w(順調 最高の調子)
+    @text = %w[順調 最高の調子]
   end
 
   def output
@@ -30,15 +33,15 @@ class Report
       output_line(line)
     end
   end
-  
+
   def output_line
     raise 'Called abstract method: output_line'
   end
-  
+
   def output_body_end
     raise 'Called abstract method: output_body_end'
   end
-  
+
   def output_end
     raise 'Called abstract method: output_end'
   end

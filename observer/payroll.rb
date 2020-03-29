@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# payroll
 class Payroll
   def update(changed_employee)
     puts "#{changed_employee.name}の小切手"

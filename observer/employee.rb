@@ -1,11 +1,14 @@
+# frozen_string_literal: true
+
 require 'observer'
 
+# Employee
 class Employee
   include Observable
 
   attr_reader :name, :title, :salary
 
-  def initialize(name, titile, salary)
+  def initialize(name, title, salary)
     @name = name
     @title = title
     @salary = salary

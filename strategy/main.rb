@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './plain_text_formatter'
 require './report'
 
